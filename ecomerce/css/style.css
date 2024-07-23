@@ -1,0 +1,164 @@
+/* Estilo da Navbar */
+.navbar {
+    background-color: #d63384; /* Rosa forte */
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #e2e2e2 !important;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    color: #ffffff;
+    font-weight: inherit;
+}
+
+/* Estilo da Barra de Pesquisa */
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 1px solid #e83e8c;
+    padding: 5px 8px;
+    width: 200px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #d63384;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: small;
+}
+
+/* Remove a borda preta indesejada no foco */
+.search-button:focus {
+    outline: none; /* Remove a borda do foco */
+    box-shadow: none; /* Remove a sombra do foco */
+}
+
+/* Estilo do ícone de pesquisa */
+.search-button i {
+    font-size: 16px; /* Tamanho do ícone */
+}
+
+/* Remover margens e padding do corpo */
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Margem abaixo da navbar */
+header {
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+/* Container geral para centralizar o conteúdo */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 20px; /* Espaçamento acima do conteúdo principal */
+}
+
+/* Ajusta a largura do conteúdo principal */
+.main-container > .container {
+    width: 100%;
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    padding: 0 15px; /* Espaçamento interno lateral */
+}
+
+/* Seções individuais */
+.section {
+    margin-bottom: 20px; /* Espaçamento abaixo das seções */
+}
+
+/* Estilo dos cards de produto */
+.card {
+    border: none; /* Remove a borda padrão do card */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Ajusta o tamanho das imagens dos produtos */
+.card-img-top {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do card */
+    height: 200px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço do card sem distorção */
+}
+
+/* Ajusta o layout dos produtos para 4 por linha, centralizado */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+/* Ajuste do tamanho e espaço dos cards */
+.col-md-3 {
+    flex: 1 1 calc(25% - 20px); /* Faz com que cada card ocupe 25% da largura disponível menos o espaçamento */
+    max-width: 25%; /* Garante que cada card ocupe no máximo 25% da largura */
+    margin: 10px; /* Espaçamento entre os cards */
+}
+
+/* Ajuste do texto dentro dos cards */
+.card-body {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Ajuste dos títulos e descrições dos produtos */
+.card-title, .card-text {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo do botão "Adicionar ao Carrinho" */
+.btn-primary {
+    background-color: #d63384; /* Cor de fundo rosa */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+}
+
+.btn-primary:hover {
+    background-color: #ff0080; /* Cor de fundo ao passar o mouse */
+    border-color: #d63384; /* Cor da borda ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+/* Ajuste do botão "Cadastrar" */
+.btn-primary {
+    background-color: #e83e8c; /* Cor de fundo rosa */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+}
+
+/* Ajusta a centralização do conteúdo no rodapé */
+footer {
+    text-align: center; /* Alinha o texto ao centro */
+}
