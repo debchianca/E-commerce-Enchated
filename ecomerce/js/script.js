@@ -1,9 +1,7 @@
-// Função para adicionar produto ao carrinho
 function adicionarAoCarrinho(nomeProduto, preco) {
     alert(`Produto: ${nomeProduto}\nPreço: R$ ${preco.toFixed(2)} adicionado ao carrinho!`);
 }
 
-// Adiciona um evento de submit ao formulário de pesquisa
 document.addEventListener('DOMContentLoaded', () => {
     const searchForm = document.querySelector('.search-form');
     
