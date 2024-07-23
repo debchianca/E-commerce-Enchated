@@ -1,2 +1,2 @@
-# E-commerce-Enchated
+# E-commerce-Enchanted
 Enchanted Beauty Store
